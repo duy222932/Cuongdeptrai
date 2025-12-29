@@ -163,7 +163,7 @@ if available_platforms:
     
     print("✅ Platform pricing features created")
 # =============================================================================
-# 10. EXPORT PROCESSED DATA (Xuất dữ liệu)
+# 3. EXPORT PROCESSED DATA (Xuất dữ liệu)
 # =============================================================================
 print("\n💾 Đang lưu file...")
 
@@ -174,4 +174,5 @@ may_2022_clean.to_csv('pricing_data_cleaned.csv', index=False)
 
 print("✅ Đã xuất file thành công!")
 print(f"📂 File được lưu tại thư mục hiện tại: {os.getcwd()}") 
+
 # Dòng trên giúp bạn biết chính xác file nằm ở đâu trong máy tính
